@@ -1,3 +1,6 @@
+# Recebe Uma lista de alunos e suas notas
+# retorna o(s) aluno(s) que tem a segunda menor nota
+
 n = int(input())
 records = []
 
