@@ -1,4 +1,5 @@
-#Recebe um valor inteiro positivo e retorna uma lista com os valores ao quadrado de cada
+# Recebe um valor inteiro positivo e retorna uma lista com os
+# valores ao quadrado de cada
 # numero positivo (e zero) menores que o valor recebido
 
 n = int(input())
@@ -6,4 +7,4 @@ n = int(input())
 numbers = range(n)
 
 for num in numbers:
-  print(num ** 2)
+    print(num ** 2)

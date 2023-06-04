@@ -1,4 +1,4 @@
-# recebe um array e o numero de elementos dele, 
+# recebe um array e o numero de elementos dele,
 # deve imprimir o segundo maior valor do array
 
 n = int(input())
@@ -7,8 +7,8 @@ sortedList = sorted(list(arr), reverse=True)
 runnerUp = 0
 
 for i in sortedList:
-  if i != sortedList[0]:
-    runnerUp = i
-    break
+    if i != sortedList[0]:
+        runnerUp = i
+        break
 
 print(runnerUp)
